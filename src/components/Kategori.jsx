@@ -1,22 +1,24 @@
 import React from 'react'
 
 
-const ogunler = ["Hepsi","Kahvaltılık", "Öğle Yemeği", "Atıştırmalık"]
 
-const Kategori = ({ handleFilter }) => {
+
+const Kategori = ({ handlefilter, kategori,
+  }) => {
   return (
     <main>
       <div className="ogun_list">
-        {ogunler.map((item, index) => {
+        {kategori.map((item, index) => {
+        //   console.log(kategori);
           return (
-            <section>
-              <div key={index} className="ogun_title">
-                <div>
-                  <button className="ogun_title_button" onClick={handleFilter}>
-                
-                    {item}{" "}
-                  </button>
-                </div>
+            <section key={index}>
+              <div className="ogun_title">
+                <button
+                  className="ogun_title_button"
+                  onClick={() => handlefilter(item)}
+                >
+                  {item}
+                </button>
               </div>
             </section>
           );
