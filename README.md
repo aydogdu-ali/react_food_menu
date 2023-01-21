@@ -11,3 +11,7 @@
 #Uygulamanın sonucu aşağıdaki bağlantıyı tıklayarak görebilirsiniz.
 
 https://aydogdu-ali.github.io/react_food_menu/
+
+
+https://user-images.githubusercontent.com/108414013/213829163-9552f65c-f45b-489e-a5c2-217180bb1312.mp4
+
