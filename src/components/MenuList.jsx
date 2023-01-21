@@ -1,7 +1,8 @@
 import React from 'react'
 import images from "../helper/images.png"
 
-
+// props olarak göderilen veriyi yakaladıkç
+// Map fonksiyonu ile DOM'a GÖNDERDİK.
 const MenuList = ({menu}) => {
   return (
     <div className="list">

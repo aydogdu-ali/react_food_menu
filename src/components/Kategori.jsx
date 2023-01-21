@@ -2,8 +2,10 @@ import React from 'react'
 
 
 
-
-const Kategori = ({ handlefilter, kategori,
+// gelen filtreleme fonksiyonu ile kategori stateni yakaladık.
+// kategori state içinde kategori listemizi map fonksiyonu ile DOM' a gönderdik.
+// handleFilter fonksiyonu ile filtreleme işlemi yapması için her bir kategoriye onClick eventi verdik.
+const Kategori = ({ handleFilter, kategori,
   }) => {
   return (
     <main>
@@ -15,7 +17,7 @@ const Kategori = ({ handlefilter, kategori,
               <div className="ogun_title">
                 <button
                   className="ogun_title_button"
-                  onClick={() => handlefilter(item)}
+                  onClick={() => handleFilter(item)}
                 >
                   {item}
                 </button>
