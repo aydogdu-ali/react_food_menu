@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Kategori from "./Kategori"; // Bu componentte çağıracıgımız componnetleri import eetik.
-import MenuList from "./MenuList"; // Bu componentte çağıracıgımız componnetleri import eetik.
+import Kategori from "./Kategori"; // Bu componentte çağıracıgımız componnetleri import ettik.
+import MenuList from "./MenuList"; // Bu componentte çağıracıgımız componnetleri import ettik.
 
 // gelen veriyi karşıladık.
 const Menu = ({ data }) => {
