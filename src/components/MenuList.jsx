@@ -1,5 +1,5 @@
 import React from 'react'
-import images from "../helper/images.png"
+import images from "../helper/images.png"// kullanacağım standart resmi ekledim.
 
 // props olarak göderilen veriyi yakaladıkç
 // Map fonksiyonu ile DOM'a GÖNDERDİK.
